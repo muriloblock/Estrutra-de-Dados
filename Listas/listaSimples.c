@@ -45,7 +45,6 @@ void freeList(struct Node* head){
 
 void main(){
 	struct Node* head = NULL;
-
 	appendNode(&head, 10);
 	appendNode(&head, 20);
 	appendNode(&head, 30);
